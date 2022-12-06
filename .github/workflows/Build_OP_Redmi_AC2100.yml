@@ -7,6 +7,7 @@
 
 name: Build_Redmi_AC2100
 
+
 on: 
   release:
     types: [published]
@@ -18,8 +19,8 @@ on:
   #schedule:
   #  - cron: 0 8 * * 5
   
-  #watch:
-  #  types: [started]
+  watch:
+    types: [started]
 
 jobs:
   build:
